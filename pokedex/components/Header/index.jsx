@@ -5,7 +5,7 @@ import { useRouter } from "expo-router";
 
 const imageSource = require("@/assets/images/header.jpg");
 
-export default function Header({tittle, back = false }) {
+export default function Header({title, back = false }) {
     const router = useRouter();
 
     return (

@@ -1,5 +1,9 @@
 EU PAREI NA PAG 33 DO PDF, LINHA 18 DO coponents/HEADER/INDEX.JSX
 
+---08/08
+deu td certo :D
+- parei na pag 35 do pdf
+
 
 -----------------
 1- Se cadastrar no github: 
