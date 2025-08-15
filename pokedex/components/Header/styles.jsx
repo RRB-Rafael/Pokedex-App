@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
     backButton: {
         marginRight: 15,
     },
-    tittle: {
+    title: {
         fontSize: 32,
         fontWeight: "bold",
     },

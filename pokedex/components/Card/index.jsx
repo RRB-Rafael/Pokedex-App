@@ -1,10 +1,18 @@
 import { Image, View, Text, ScrollView, TouchableOpacity } from "react-native";
 import { POKEMON_TYPE_COLORS } from "../../utils/colors";
 import { styles } from "./styles";
+import Button from "../Button";
+import { useRouter } from "expo-router";
 
 export default function Card({ pokemon }) {
+    const router = useRouter();
     return(
         <TouchableOpacity
+
+        onPress={() => 
+            router.push({ pathname})...
+        }
+
         style= {[styles.container,
             {backgroundColor: `${POKEMON_TYPE_COLORS[pokemon.Tipo[0].Nome]}`},
         ]}>
@@ -13,12 +21,12 @@ export default function Card({ pokemon }) {
                 <Text style={styles.nome}>#{pokemon.Nome}</Text>
                 <ScrollView horizontal>
                     {pokemon.Tipo.map((tipo) => (
-                        <Text>{tipo.Nome}</Text>
+                        <Button tipo={tipo} key={tipo.Nome}/>
                     ))}
-                </ScrollView> 
+                </ScrollView>  
             </View>
             <View style={styles.imageContainer}>
-                <image source={{ uri: pokemon.Imagem }} style={styles.imagem}/>
+                <Image source={{ uri: pokemon.Imagem }} style={styles.imagem}/>
             </View>
         </TouchableOpacity>
     );

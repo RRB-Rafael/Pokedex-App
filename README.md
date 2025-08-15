@@ -1,6 +1,7 @@
----13/08
-Houve algum problema, preciso dar uma olhada
-Parei na pág 44
+---15/08
+
+Parei na pág 54
+card/index.jsx
 
 
 -----------------
