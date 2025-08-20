@@ -4,7 +4,7 @@ import { styles } from "./styles";
 
 export default function Button({ tipo, large = false }) {
     const buttonStyle = {
-        backgroundColor: darken (0.2, tipo.Cor),
+        backgroundColor: darken(0.2, tipo.Cor),
         minWidth: large ? 60 : 40, 
         height: large ? 45 : 30,
         paddingHorizontal: large ? 20 : 10,
@@ -16,7 +16,7 @@ export default function Button({ tipo, large = false }) {
     };
 
     return (
-        <View style={[styles.buttonText, textStyle]}>
+        <View style={[styles.buttonText, buttonStyle]}>
             <Text style={[styles.buttonText, textStyle]}>{tipo.Nome}</Text> 
         </View>
     );

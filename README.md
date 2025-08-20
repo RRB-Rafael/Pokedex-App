@@ -1,7 +1,6 @@
----15/08
+---20/08
 
-Parei na pág 54
-card/index.jsx
+Parei na pág 61
 
 
 -----------------
