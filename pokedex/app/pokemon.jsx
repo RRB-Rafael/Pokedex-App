@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         height: width - 60,
     },
     dataContainer: {
-        height: 20,
+        height: 260,
         paddingHorizontal: 20
     },
 });  

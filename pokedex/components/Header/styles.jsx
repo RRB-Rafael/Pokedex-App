@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
         top: -150,
         resizeMode: "cover",
     },
-    tittleContainer: {
+    titleContainer: {
         paddingHorizontal: 15,
         marginTop: -40,
     },

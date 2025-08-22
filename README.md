@@ -1,6 +1,6 @@
----20/08
+---22/08
 
-Parei na pág 61
+Finalizei, finalmente \TT/
 
 
 -----------------
